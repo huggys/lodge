@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Stock, :type => :model do
+RSpec.describe Stock, type: :model do
   subject { FactoryGirl.create(:stock) }
 
   it { should belong_to(:user) }
